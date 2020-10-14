@@ -36,7 +36,7 @@ under the License.
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>3.8.2</version>
+      <version>4.13.2</version>
     </dependency>
 
     <dependency>
@@ -79,9 +79,8 @@ under the License.
                   <includes>
                     <include>junit/framework/**</include>
                     <include>junit/awtui/**</include>
-                    <include>junit/runner/**/*.properties</include>
-                    <include>junit/runner/**/*.gif</include>
-                    <include>junit/swingui/icons/*.gif</include>
+                    <include>junit/runner/**</include>
+                    <include>junit/runner/*.gif</include>
                   </includes>                
                 </filter>
                 <!-- make sure that include patterns only affect their specified artifacts -->

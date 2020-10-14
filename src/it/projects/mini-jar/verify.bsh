@@ -24,7 +24,7 @@ String[] wanted =
 {
     "Main.class",
     "junit/framework/TestCase.class",
-    "junit/swingui/icons/error.gif",
+    "junit/runner/logo.gif",
 };
 
 String[] unwanted =
